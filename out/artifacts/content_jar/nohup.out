@@ -1,0 +1,46 @@
+23:41:13.867 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Activating profiles []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+23:41:14.073 [main] INFO com.stackynote.content.ContentApplication - Starting ContentApplication on DESKTOP-7CHR3BU with PID 15976 (C:\Users\delllatitute\Desktop\Test Webdev\stackynote\micro-service\content\out\artifacts\content_jar\content.jar started by delllatitute in C:\Users\delllatitute\Desktop\Test Webdev\stackynote\micro-service\content\out\artifacts\content_jar)
+23:41:14.073 [main] DEBUG com.stackynote.content.ContentApplication - Running with Spring Boot, Spring
+23:41:14.074 [main] INFO com.stackynote.content.ContentApplication - No active profile set, falling back to default profiles: default
+23:41:14.075 [main] DEBUG org.springframework.boot.SpringApplication - Loading source class com.stackynote.content.ContentApplication
+23:41:14.179 [main] DEBUG org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7
+23:41:14.197 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:41:14.333 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/C:/Users/delllatitute/Desktop/Test%20Webdev/stackynote/micro-service/content/out/artifacts/content_jar/content.jar!/com/stackynote/content/controller/CategoryController.class]
+23:41:14.342 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/C:/Users/delllatitute/Desktop/Test%20Webdev/stackynote/micro-service/content/out/artifacts/content_jar/content.jar!/com/stackynote/content/controller/NoteController.class]
+23:41:14.344 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/C:/Users/delllatitute/Desktop/Test%20Webdev/stackynote/micro-service/content/out/artifacts/content_jar/content.jar!/com/stackynote/content/controller/StackController.class]
+23:41:14.347 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/C:/Users/delllatitute/Desktop/Test%20Webdev/stackynote/micro-service/content/out/artifacts/content_jar/content.jar!/com/stackynote/content/controller/SubCategoryController.class]
+23:41:14.361 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/C:/Users/delllatitute/Desktop/Test%20Webdev/stackynote/micro-service/content/out/artifacts/content_jar/content.jar!/com/stackynote/content/CorsConfiguration.class]
+23:41:14.440 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: No auto configuration classes found in META-INF/spring.factories. If you are using a custom packaging, make sure that file is correct.
+	at org.springframework.util.Assert.notEmpty(Assert.java:467)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getCandidateConfigurations(AutoConfigurationImportSelector.java:180)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:123)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:434)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:879)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.stackynote.content.ContentApplication.main(ContentApplication.java:10)
+23:41:14.447 [main] DEBUG org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7, started on Sun Nov 22 23:41:14 ICT 2020
